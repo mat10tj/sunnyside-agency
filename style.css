@@ -1,0 +1,23 @@
+:root {
+  --ds-cyan: hsl(167, 40%, 24%);
+  --soft-red: hsl(9,99%,70%);
+  --dark-blue: hsl(198,62%,26%);
+  --dm-cyan: hsl(168,34%,41%);
+}
+
+.header {
+  position: fixed;
+  background-color: #3ebfff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

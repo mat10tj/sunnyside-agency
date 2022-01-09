@@ -1,0 +1,20 @@
+:root {
+    --ds-cyan: hsl(167, 40%, 24%);
+    --soft-red: hsl(9,99%,70%);
+    --dark-blue: hsl(198,62%,26%); //landing
+    --dm-cyan: hsl(168,34%,41%); //footer
+}
+
+.header{
+    position: fixed;
+    background-color: #3ebfff;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    // background-color: blue;
+}
