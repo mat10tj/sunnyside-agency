@@ -1,23 +1,42 @@
 :root {
-  --ds-cyan: hsl(167, 40%, 24%);
-  --soft-red: hsl(9,99%,70%);
-  --dark-blue: hsl(198,62%,26%);
-  --dm-cyan: hsl(168,34%,41%);
+    --header-bg: #3ebfff;
+}
+/* rgba(62,191,255,255) */
+nav{
+    display: flex;
+    background-color: #3ebfff;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    color: white;
 }
 
-.header {
-  position: fixed;
-  background-color: #3ebfff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vw;
-  height: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.logo{
+    padding: 1rem;
 }
-/*# sourceMappingURL=style.css.map */
+.links{
+    display: flex;
+    border: 1px solid red;
+    width: 300px;
+    height: 40px;
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    /* width: 30px; */
+    /* padding-right: 2rem; */
+
+}
+
+.contact{
+    border: solid 1px;
+}
+
+/* .hero{
+    height: 100vh;
+    /* background-color: rgba(62,191,255,200); */
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: bottom;
+} */
